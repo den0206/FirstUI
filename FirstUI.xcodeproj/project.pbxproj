@@ -16,6 +16,8 @@
 		3A9A506724EBB4E3009A648D /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9A506624EBB4E3009A648D /* ListView.swift */; };
 		3A9A506A24EBB519009A648D /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9A506924EBB519009A648D /* Hike.swift */; };
 		3A9CE86824ED56710004A06A /* HikeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9CE86724ED56710004A06A /* HikeDetailView.swift */; };
+		3ACE900024EEBA5F00AB5687 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACE8FFF24EEBA5F00AB5687 /* GridView.swift */; };
+		3ACE900224EEBBFD00AB5687 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACE900124EEBBFD00AB5687 /* Array+Extensions.swift */; };
 		3AE0B2E824EB916C001F904E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0B2E724EB916C001F904E /* AppDelegate.swift */; };
 		3AE0B2EA24EB916C001F904E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0B2E924EB916C001F904E /* SceneDelegate.swift */; };
 		3AE0B2EC24EB916C001F904E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0B2EB24EB916C001F904E /* ContentView.swift */; };
@@ -34,6 +36,8 @@
 		3A9A506624EBB4E3009A648D /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		3A9A506924EBB519009A648D /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		3A9CE86724ED56710004A06A /* HikeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetailView.swift; sourceTree = "<group>"; };
+		3ACE8FFF24EEBA5F00AB5687 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		3ACE900124EEBBFD00AB5687 /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		3AE0B2E424EB916C001F904E /* FirstUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE0B2E724EB916C001F904E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AE0B2E924EB916C001F904E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,8 +94,8 @@
 				3AE0B2E724EB916C001F904E /* AppDelegate.swift */,
 				3AE0B2E924EB916C001F904E /* SceneDelegate.swift */,
 				3AE0B2EB24EB916C001F904E /* ContentView.swift */,
-				3A9A506624EBB4E3009A648D /* ListView.swift */,
-				3A9CE86724ED56710004A06A /* HikeDetailView.swift */,
+				3AFF8FA024EEBA20009AA6BD /* List */,
+				3AFF8F9F24EEBA18009AA6BD /* Grid */,
 				3A70CA4124EB9A5400B1D127 /* Assets.xcassets */,
 				3AE0B2F224EB9170001F904E /* LaunchScreen.storyboard */,
 				3AE0B2F524EB9170001F904E /* Info.plist */,
@@ -116,6 +120,25 @@
 				3A5F0D2324EBA6C400B74FCC /* OrderView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		3AFF8F9F24EEBA18009AA6BD /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				3ACE8FFF24EEBA5F00AB5687 /* GridView.swift */,
+				3ACE900124EEBBFD00AB5687 /* Array+Extensions.swift */,
+			);
+			path = Grid;
+			sourceTree = "<group>";
+		};
+		3AFF8FA024EEBA20009AA6BD /* List */ = {
+			isa = PBXGroup;
+			children = (
+				3A9A506624EBB4E3009A648D /* ListView.swift */,
+				3A9CE86724ED56710004A06A /* HikeDetailView.swift */,
+			);
+			name = List;
+			path = Model/List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +222,9 @@
 				3AE0B2EA24EB916C001F904E /* SceneDelegate.swift in Sources */,
 				3AE0B30924EB9255001F904E /* OrderDertail.swift in Sources */,
 				3AE0B2EC24EB916C001F904E /* ContentView.swift in Sources */,
+				3ACE900224EEBBFD00AB5687 /* Array+Extensions.swift in Sources */,
 				3A6DAC7224EB933C00543920 /* OrderRowView.swift in Sources */,
+				3ACE900024EEBA5F00AB5687 /* GridView.swift in Sources */,
 				3A9A506724EBB4E3009A648D /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
