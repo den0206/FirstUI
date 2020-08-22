@@ -9,8 +9,25 @@
 import SwiftUI
 
 struct OvservalView2: View {
+    
+    @ObservedObject private var userSetting = UserSettings()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing : 20) {
+            Text("\(userSetting.score)")
+                       .font(.largeTitle)
+            Text(userSetting.name)
+            .font(.largeTitle)
+            
+            Button(action: {
+                self.userSetting.score += 1
+                self.userSetting.name = "push"
+            }) {
+                Text("Up Score")
+                
+            }
+        }
+       
     }
 }
 
