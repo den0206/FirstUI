@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A35BCE024F115A500BCD3A1 /* BindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A35BCDF24F115A500BCD3A1 /* BindView.swift */; };
+		3A35BCE324F1179400BCD3A1 /* Epsode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A35BCE224F1179400BCD3A1 /* Epsode.swift */; };
+		3A4A2ABB24F0FF2B00773874 /* FilterStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A2ABA24F0FF2B00773874 /* FilterStateView.swift */; };
 		3A5F0D2424EBA6C400B74FCC /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5F0D2324EBA6C400B74FCC /* OrderView.swift */; };
 		3A6DAC7224EB933C00543920 /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6DAC7124EB933C00543920 /* OrderRowView.swift */; };
 		3A70CA3A24EB97D300B1D127 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A70CA3724EB97D300B1D127 /* Data.swift */; };
@@ -21,6 +24,9 @@
 		3A9F6DFA24F0F49200FC20AB /* GridView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9F6DF924F0F49200FC20AB /* GridView1.swift */; };
 		3A9F6DFD24F0F71D00FC20AB /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9F6DFC24F0F71D00FC20AB /* Dish.swift */; };
 		3A9F6E0024F0FA6C00FC20AB /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9F6DFF24F0FA6C00FC20AB /* StateView.swift */; };
+		3AB8134524F11B1C0002DE44 /* FancyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8134424F11B1C0002DE44 /* FancyTimer.swift */; };
+		3AB8134724F11C1D0002DE44 /* ObservalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8134624F11C1D0002DE44 /* ObservalView.swift */; };
+		3AB8134924F11D380002DE44 /* OvservalView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8134824F11D380002DE44 /* OvservalView2.swift */; };
 		3ACE900024EEBA5F00AB5687 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACE8FFF24EEBA5F00AB5687 /* GridView.swift */; };
 		3ACE900224EEBBFD00AB5687 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACE900124EEBBFD00AB5687 /* Array+Extensions.swift */; };
 		3AE0B2E824EB916C001F904E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0B2E724EB916C001F904E /* AppDelegate.swift */; };
@@ -32,6 +38,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A35BCDF24F115A500BCD3A1 /* BindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindView.swift; sourceTree = "<group>"; };
+		3A35BCE224F1179400BCD3A1 /* Epsode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Epsode.swift; sourceTree = "<group>"; };
+		3A4A2ABA24F0FF2B00773874 /* FilterStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterStateView.swift; sourceTree = "<group>"; };
 		3A5F0D2324EBA6C400B74FCC /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		3A6DAC7124EB933C00543920 /* OrderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRowView.swift; sourceTree = "<group>"; };
 		3A70CA3724EB97D300B1D127 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		3A9F6DFB24F0F5B400FC20AB /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3A9F6DFC24F0F71D00FC20AB /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
 		3A9F6DFF24F0FA6C00FC20AB /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
+		3AB8134424F11B1C0002DE44 /* FancyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyTimer.swift; sourceTree = "<group>"; };
+		3AB8134624F11C1D0002DE44 /* ObservalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservalView.swift; sourceTree = "<group>"; };
+		3AB8134824F11D380002DE44 /* OvservalView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OvservalView2.swift; sourceTree = "<group>"; };
 		3ACE8FFF24EEBA5F00AB5687 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		3ACE900124EEBBFD00AB5687 /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		3AE0B2E424EB916C001F904E /* FirstUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A35BCDE24F1157D00BCD3A1 /* Bind */ = {
+			isa = PBXGroup;
+			children = (
+				3A35BCE224F1179400BCD3A1 /* Epsode.swift */,
+				3A35BCDF24F115A500BCD3A1 /* BindView.swift */,
+			);
+			path = Bind;
+			sourceTree = "<group>";
+		};
 		3A9A506824EBB507009A648D /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,8 +105,19 @@
 				3A9F6DFF24F0FA6C00FC20AB /* StateView.swift */,
 				3A7A19A524F0FBEC00C03802 /* StateView2.swift */,
 				3A7A19A724F0FC0200C03802 /* Task.swift */,
+				3A4A2ABA24F0FF2B00773874 /* FilterStateView.swift */,
 			);
 			path = State;
+			sourceTree = "<group>";
+		};
+		3AB8134124F11AEB0002DE44 /* ObservalObject */ = {
+			isa = PBXGroup;
+			children = (
+				3AB8134424F11B1C0002DE44 /* FancyTimer.swift */,
+				3AB8134624F11C1D0002DE44 /* ObservalView.swift */,
+				3AB8134824F11D380002DE44 /* OvservalView2.swift */,
+			);
+			path = ObservalObject;
 			sourceTree = "<group>";
 		};
 		3AE0B2DB24EB916C001F904E = {
@@ -118,6 +150,8 @@
 				3AFF8FA024EEBA20009AA6BD /* List */,
 				3AFF8F9F24EEBA18009AA6BD /* Grid */,
 				3A9F6DFE24F0FA5B00FC20AB /* State */,
+				3A35BCDE24F1157D00BCD3A1 /* Bind */,
+				3AB8134124F11AEB0002DE44 /* ObservalObject */,
 				3A70CA4124EB9A5400B1D127 /* Assets.xcassets */,
 				3AE0B2F224EB9170001F904E /* LaunchScreen.storyboard */,
 				3AE0B2F524EB9170001F904E /* Info.plist */,
@@ -239,15 +273,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A9A506A24EBB519009A648D /* Hike.swift in Sources */,
+				3A35BCE024F115A500BCD3A1 /* BindView.swift in Sources */,
 				3AE0B2E824EB916C001F904E /* AppDelegate.swift in Sources */,
 				3A9F6DFA24F0F49200FC20AB /* GridView1.swift in Sources */,
+				3A35BCE324F1179400BCD3A1 /* Epsode.swift in Sources */,
 				3A7A19A624F0FBEC00C03802 /* StateView2.swift in Sources */,
 				3A5F0D2424EBA6C400B74FCC /* OrderView.swift in Sources */,
+				3A4A2ABB24F0FF2B00773874 /* FilterStateView.swift in Sources */,
+				3AB8134724F11C1D0002DE44 /* ObservalView.swift in Sources */,
 				3A70CA3C24EB97D300B1D127 /* OrderEntity.swift in Sources */,
 				3A9CE86824ED56710004A06A /* HikeDetailView.swift in Sources */,
 				3A9F6E0024F0FA6C00FC20AB /* StateView.swift in Sources */,
 				3A9F6DFD24F0F71D00FC20AB /* Dish.swift in Sources */,
+				3AB8134924F11D380002DE44 /* OvservalView2.swift in Sources */,
 				3A70CA3A24EB97D300B1D127 /* Data.swift in Sources */,
+				3AB8134524F11B1C0002DE44 /* FancyTimer.swift in Sources */,
 				3AE0B2EA24EB916C001F904E /* SceneDelegate.swift in Sources */,
 				3AE0B30924EB9255001F904E /* OrderDertail.swift in Sources */,
 				3AE0B2EC24EB916C001F904E /* ContentView.swift in Sources */,

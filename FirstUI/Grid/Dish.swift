@@ -15,6 +15,7 @@ struct Dish :Identifiable{
     let name : String
     let prica : Double
     let imageUrl : String
+    var isSpicy : Bool = false
     
 }
 
