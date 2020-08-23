@@ -10,7 +10,7 @@ import SwiftUI
 
 struct OvservalView2: View {
     
-    @ObservedObject private var userSetting = UserSettings()
+    @EnvironmentObject var userSetting : UserSettings
     
     var body: some View {
         VStack(spacing : 20) {
@@ -24,8 +24,9 @@ struct OvservalView2: View {
                 self.userSetting.name = "push"
             }) {
                 Text("Up Score")
-                
             }
+            
+            FancyScoreView()
         }
        
     }
@@ -34,5 +35,6 @@ struct OvservalView2: View {
 struct OvservalView2_Previews: PreviewProvider {
     static var previews: some View {
         OvservalView2()
+//        OvservalView2().environmentObject(UserSettings())
     }
 }

@@ -36,6 +36,11 @@
 		3AE0B2F124EB9170001F904E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE0B2F024EB9170001F904E /* Preview Assets.xcassets */; };
 		3AE0B2F424EB9170001F904E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE0B2F224EB9170001F904E /* LaunchScreen.storyboard */; };
 		3AE0B30924EB9255001F904E /* OrderDertail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0B30824EB9255001F904E /* OrderDertail.swift */; };
+		3AE6542124F2210A00053EA1 /* FancyScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6542024F2210A00053EA1 /* FancyScoreView.swift */; };
+		3AE6542324F2392C00053EA1 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6542224F2392C00053EA1 /* Weather.swift */; };
+		3AE6542624F239BE00053EA1 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6542524F239BE00053EA1 /* WeatherService.swift */; };
+		3AE6542924F23C8700053EA1 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6542824F23C8700053EA1 /* WeatherViewModel.swift */; };
+		3AE6542C24F23F0400053EA1 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6542B24F23F0400053EA1 /* WeatherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +76,11 @@
 		3AE0B2F324EB9170001F904E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AE0B2F524EB9170001F904E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AE0B30824EB9255001F904E /* OrderDertail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDertail.swift; sourceTree = "<group>"; };
+		3AE6542024F2210A00053EA1 /* FancyScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyScoreView.swift; sourceTree = "<group>"; };
+		3AE6542224F2392C00053EA1 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		3AE6542524F239BE00053EA1 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		3AE6542824F23C8700053EA1 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		3AE6542B24F23F0400053EA1 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +106,7 @@
 		3A9A506824EBB507009A648D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3AE6542224F2392C00053EA1 /* Weather.swift */,
 				3A9A506924EBB519009A648D /* Hike.swift */,
 			);
 			path = Model;
@@ -119,6 +130,7 @@
 				3AB8A75524F11E2500F2C942 /* UserSettings.swift */,
 				3AB8134624F11C1D0002DE44 /* ObservalView.swift */,
 				3AB8134824F11D380002DE44 /* OvservalView2.swift */,
+				3AE6542024F2210A00053EA1 /* FancyScoreView.swift */,
 			);
 			path = ObservalObject;
 			sourceTree = "<group>";
@@ -143,6 +155,8 @@
 			isa = PBXGroup;
 			children = (
 				3A9A506824EBB507009A648D /* Model */,
+				3AE6542724F23C7700053EA1 /* ViewModel */,
+				3AE6542424F239AE00053EA1 /* Service */,
 				3A70CA3724EB97D300B1D127 /* Data.swift */,
 				3A70CA3824EB97D300B1D127 /* orderEntity.json */,
 				3A70CA3924EB97D300B1D127 /* OrderEntity.swift */,
@@ -150,6 +164,7 @@
 				3AE0B2E724EB916C001F904E /* AppDelegate.swift */,
 				3AE0B2E924EB916C001F904E /* SceneDelegate.swift */,
 				3AE0B2EB24EB916C001F904E /* ContentView.swift */,
+				3AE6542A24F23EF200053EA1 /* Weather */,
 				3AFF8FA024EEBA20009AA6BD /* List */,
 				3AFF8F9F24EEBA18009AA6BD /* Grid */,
 				3A9F6DFE24F0FA5B00FC20AB /* State */,
@@ -179,6 +194,30 @@
 				3A5F0D2324EBA6C400B74FCC /* OrderView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		3AE6542424F239AE00053EA1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3AE6542524F239BE00053EA1 /* WeatherService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		3AE6542724F23C7700053EA1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3AE6542824F23C8700053EA1 /* WeatherViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3AE6542A24F23EF200053EA1 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				3AE6542B24F23F0400053EA1 /* WeatherView.swift */,
+			);
+			path = Weather;
 			sourceTree = "<group>";
 		};
 		3AFF8F9F24EEBA18009AA6BD /* Grid */ = {
@@ -282,24 +321,29 @@
 				3A35BCE324F1179400BCD3A1 /* Epsode.swift in Sources */,
 				3A7A19A624F0FBEC00C03802 /* StateView2.swift in Sources */,
 				3A5F0D2424EBA6C400B74FCC /* OrderView.swift in Sources */,
+				3AE6542924F23C8700053EA1 /* WeatherViewModel.swift in Sources */,
 				3A4A2ABB24F0FF2B00773874 /* FilterStateView.swift in Sources */,
 				3AB8134724F11C1D0002DE44 /* ObservalView.swift in Sources */,
 				3A70CA3C24EB97D300B1D127 /* OrderEntity.swift in Sources */,
 				3A9CE86824ED56710004A06A /* HikeDetailView.swift in Sources */,
 				3A9F6E0024F0FA6C00FC20AB /* StateView.swift in Sources */,
 				3A9F6DFD24F0F71D00FC20AB /* Dish.swift in Sources */,
+				3AE6542324F2392C00053EA1 /* Weather.swift in Sources */,
+				3AE6542C24F23F0400053EA1 /* WeatherView.swift in Sources */,
 				3AB8134924F11D380002DE44 /* OvservalView2.swift in Sources */,
 				3A70CA3A24EB97D300B1D127 /* Data.swift in Sources */,
 				3AB8134524F11B1C0002DE44 /* FancyTimer.swift in Sources */,
 				3AE0B2EA24EB916C001F904E /* SceneDelegate.swift in Sources */,
 				3AE0B30924EB9255001F904E /* OrderDertail.swift in Sources */,
 				3AE0B2EC24EB916C001F904E /* ContentView.swift in Sources */,
+				3AE6542624F239BE00053EA1 /* WeatherService.swift in Sources */,
 				3ACE900224EEBBFD00AB5687 /* Array+Extensions.swift in Sources */,
 				3A6DAC7224EB933C00543920 /* OrderRowView.swift in Sources */,
 				3ACE900024EEBA5F00AB5687 /* GridView.swift in Sources */,
 				3A7A19A824F0FC0200C03802 /* Task.swift in Sources */,
 				3AB8A75624F11E2500F2C942 /* UserSettings.swift in Sources */,
 				3A9A506724EBB4E3009A648D /* ListView.swift in Sources */,
+				3AE6542124F2210A00053EA1 /* FancyScoreView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
