@@ -30,6 +30,9 @@
 		3AB8A75624F11E2500F2C942 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8A75524F11E2500F2C942 /* UserSettings.swift */; };
 		3ACE900024EEBA5F00AB5687 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACE8FFF24EEBA5F00AB5687 /* GridView.swift */; };
 		3ACE900224EEBBFD00AB5687 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACE900124EEBBFD00AB5687 /* Array+Extensions.swift */; };
+		3ADD00F124F3F8A1009C228B /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADD00F024F3F8A1009C228B /* Coffee.swift */; };
+		3ADD00F324F3F97A009C228B /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADD00F224F3F97A009C228B /* Order.swift */; };
+		3ADD00F524F3FA29009C228B /* CoffeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADD00F424F3FA29009C228B /* CoffeService.swift */; };
 		3AE0B2E824EB916C001F904E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0B2E724EB916C001F904E /* AppDelegate.swift */; };
 		3AE0B2EA24EB916C001F904E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0B2E924EB916C001F904E /* SceneDelegate.swift */; };
 		3AE0B2EC24EB916C001F904E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0B2EB24EB916C001F904E /* ContentView.swift */; };
@@ -68,6 +71,9 @@
 		3AB8A75524F11E2500F2C942 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
 		3ACE8FFF24EEBA5F00AB5687 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		3ACE900124EEBBFD00AB5687 /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		3ADD00F024F3F8A1009C228B /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		3ADD00F224F3F97A009C228B /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		3ADD00F424F3FA29009C228B /* CoffeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeService.swift; sourceTree = "<group>"; };
 		3AE0B2E424EB916C001F904E /* FirstUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE0B2E724EB916C001F904E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AE0B2E924EB916C001F904E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +114,8 @@
 			children = (
 				3AE6542224F2392C00053EA1 /* Weather.swift */,
 				3A9A506924EBB519009A648D /* Hike.swift */,
+				3ADD00F024F3F8A1009C228B /* Coffee.swift */,
+				3ADD00F224F3F97A009C228B /* Order.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -200,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				3AE6542524F239BE00053EA1 /* WeatherService.swift */,
+				3ADD00F424F3FA29009C228B /* CoffeService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -316,6 +325,7 @@
 			files = (
 				3A9A506A24EBB519009A648D /* Hike.swift in Sources */,
 				3A35BCE024F115A500BCD3A1 /* BindView.swift in Sources */,
+				3ADD00F324F3F97A009C228B /* Order.swift in Sources */,
 				3AE0B2E824EB916C001F904E /* AppDelegate.swift in Sources */,
 				3A9F6DFA24F0F49200FC20AB /* GridView1.swift in Sources */,
 				3A35BCE324F1179400BCD3A1 /* Epsode.swift in Sources */,
@@ -326,10 +336,12 @@
 				3AB8134724F11C1D0002DE44 /* ObservalView.swift in Sources */,
 				3A70CA3C24EB97D300B1D127 /* OrderEntity.swift in Sources */,
 				3A9CE86824ED56710004A06A /* HikeDetailView.swift in Sources */,
+				3ADD00F524F3FA29009C228B /* CoffeService.swift in Sources */,
 				3A9F6E0024F0FA6C00FC20AB /* StateView.swift in Sources */,
 				3A9F6DFD24F0F71D00FC20AB /* Dish.swift in Sources */,
 				3AE6542324F2392C00053EA1 /* Weather.swift in Sources */,
 				3AE6542C24F23F0400053EA1 /* WeatherView.swift in Sources */,
+				3ADD00F124F3F8A1009C228B /* Coffee.swift in Sources */,
 				3AB8134924F11D380002DE44 /* OvservalView2.swift in Sources */,
 				3A70CA3A24EB97D300B1D127 /* Data.swift in Sources */,
 				3AB8134524F11B1C0002DE44 /* FancyTimer.swift in Sources */,
