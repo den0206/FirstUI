@@ -10,10 +10,14 @@ import SwiftUI
 
 struct ContentView: View {
     
+    @ObservedObject private var ordetrListVM = OrderListViewModel()
     
     var body: some View {
         
-        Text("some")
+        NavigationView {
+            OrderListView(orders: self.ordetrListVM.orders)
+            .navigationBarTitle("aa")
+        }
     }
 }
 
