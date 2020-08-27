@@ -10,14 +10,16 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @ObservedObject private var ordetrListVM = OrderListViewModel()
+    let dishes = Dish.all()
     
     var body: some View {
         
-        NavigationView {
-            OrderListView(orders: self.ordetrListVM.orders)
-            .navigationBarTitle("aa")
+        List {
+            ForEach(dishes, id: \.self) { dish in
+                DishCell(dish: dish)
+            }
         }
+        
     }
 }
 
